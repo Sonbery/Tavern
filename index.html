@@ -96,10 +96,11 @@
 
 <script>
 
-document.addEventListener('DOMContentLoaded', (event) => {
-   const inseridoinput = document.getElementById('oi');
-   const botao = document.getElementById('bott');
+	document.addEventListener('DOMContentLoaded', (event) => {
+   		const inseridoinput = document.getElementById('oi');
+ 		const botao = document.getElementById('bott');
 
+		
 inseridoinput.addEventListener('keypress', function(event){
 
 	if (event.key === 'Enter') {
@@ -108,20 +109,27 @@ inseridoinput.addEventListener('keypress', function(event){
 
 }
 
+
+	
 });
 
+
+		
 document.getElementById("opi").onclick = function() {
                 window.location.href = "aba2.html";
             };
 
 
+		
 });
 
+
+	
 function m() {
 
-const resposta = document.getElementById('oi').value;
-
-document.getElementById('babo').innerText = resposta;
+	const resposta = document.getElementById('oi').value;
+		
+		document.getElementById('babo').innerText = resposta;
 
 }
 
@@ -134,15 +142,19 @@ document.getElementById('babo').innerText = resposta;
 
 <div class="head">
 
-<div class="lepo">
-<h1>Cyber Tavern</h1>
+	<div class="lepo">
+		<h1>Cyber Tavern</h1>
+	</div>
+
+	
+	<div id="opi" class="opi">
+		<h3>aba2</h3>
+	</div>
+
+
 </div>
 
-<div id="opi" class="opi">
-<h3>aba2</h3>
-</div>
-
-
+	
 <div class="main">
 
 <br>
@@ -201,20 +213,22 @@ document.getElementById('babo').innerText = resposta;
 <br>
 <br>
 
-<h1>Diga algo para mim</h1>
+	
+	<h1>Diga algo para mim</h1>
 
+	<input id="oi"></input>
 
-
-<input id="oi"></input>
-
+	
 <br>
 
-<button id="bott" onclick="m()"></button>
+	
+	<button id="bott" onclick="m()"></button>
 
+
+	
 <div class="babo" id="babo"></div>
 
-
-<p>O cançaco e a angústia consome a alma de todos os miseráveis</p>
+	<p>O cançaco e a angústia consome a alma de todos os miseráveis</p>
 
 
 </div>
